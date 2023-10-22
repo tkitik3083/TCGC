@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.scrollback": 200000,
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports": true,
+      "source.fixAll.eslint": true,
+      "source.organizeImports.styleEslint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
