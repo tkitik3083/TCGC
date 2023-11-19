@@ -1,0 +1,14 @@
+version: "3"
+services:
+  tcgc:
+    image: node:latest
+    working_dir: /usr/app/tcgc
+    volumes:
+      - ./src:/usr/app/tcgc
+    command: >
+      sh -c '
+        npm i
+        npm run dev
+      '
+    ports:
+      - "3000:3000"
