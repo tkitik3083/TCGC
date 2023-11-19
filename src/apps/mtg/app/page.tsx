@@ -1,12 +1,16 @@
 import classNames from 'classnames';
-import { NextPage } from 'next';
+import { Metadata, NextPage } from 'next';
 import Image from 'next/image';
 
-import MtgBlack from '~/public/img/mtg-black.png';
-import MtgBlue from '~/public/img/mtg-blue.png';
-import MtgGreen from '~/public/img/mtg-green.png';
-import MtgRed from '~/public/img/mtg-red.png';
-import MtgWhite from '~/public/img/mtg-white.png';
+import MtgBlack from '~/public/img/mana/black.png';
+import MtgBlue from '~/public/img/mana/blue.png';
+import MtgGreen from '~/public/img/mana/green.png';
+import MtgRed from '~/public/img/mana/red.png';
+import MtgWhite from '~/public/img/mana/white.png';
+
+export const metadata: Metadata = {
+  description: 'Show and manage your mtg cards collection.',
+};
 
 const Page: NextPage = () => {
   return (
